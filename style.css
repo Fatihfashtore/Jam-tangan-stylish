@@ -19,6 +19,14 @@ h2 {
   font-size: 18px;
   margin-top: 10px;
 }
+
+.Note{
+  text-align: center;
+  font-size: 9px;
+  margin-top: 30px;
+  color: #777;
+}
+
 .image {
   width: 100%;
   border-radius: 12px;
