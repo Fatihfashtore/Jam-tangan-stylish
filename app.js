@@ -1,4 +1,3 @@
-
 function submitOrder() {
   event.preventDefault();
   const nama = document.getElementById('nama').value;
@@ -12,5 +11,5 @@ function submitOrder() {
   window.open(`https://wa.me/6281316660739?text=${encoded}`, '_blank');
 
   fbq('track', 'ViewContent');
-  fbq('track', 'Purchase', {value: 139000, currency: 'IDR'});
+  fbq('track', 'Purchase', {value: 165000, currency: 'IDR'});
 }
